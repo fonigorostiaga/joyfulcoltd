@@ -1,8 +1,8 @@
-
-    header{
+header{
     position: sticky;
     top: 0;
     height: 100px;
+    z-index: 999;
 }
 .navegador{
     margin-inline-start: auto ;
@@ -30,9 +30,7 @@ a:hover{
     color:#000102 !important;
     transition: 0.3s  !important;
 }
-.carousel-item{
-    height: 600px;
-} 
+
 .nosotros, .servicios, .exportacionPreFinanciada, .contacto{
     background-color: #e2e2da65;
     padding-top:40px ;
