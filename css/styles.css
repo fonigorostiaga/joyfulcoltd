@@ -1,0 +1,172 @@
+
+    header{
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+.navegador{
+    margin-inline-start: auto ;
+    margin-inline-end:10% ;
+}
+.navegador>li{
+    margin-left: 40px;
+}
+.icono{
+    height: 65px;
+}
+.contenedorIcono{
+    margin-left: 15%;
+    padding:15px ;
+}
+nav{
+    background-color: #1b187f8e;
+    font-size: 20px;
+}
+.nav-item>a{
+    color: #f6f8fa !important;
+
+}
+a:hover{
+    color:#000102 !important;
+    transition: 0.3s  !important;
+}
+.carousel-item{
+    height: 600px;
+} 
+.nosotros, .servicios, .exportacionPreFinanciada, .contacto{
+    background-color: #e2e2da65;
+    padding-top:40px ;
+    padding-bottom: 35px;
+}
+.nosotros>h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exportacion img{
+    width: 550px;
+}
+.vision, .exportacionFinanciada, .asesoramiento{
+    padding-top:40px ;
+    padding-bottom: 35px;
+}
+h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.tilde{
+    width: 45px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+h3{
+    width: fit-content;
+}
+.vision1, .vision2, .vision3, .vision4{
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 35px;
+}
+.containerVision{
+    display: grid;
+    grid-template-areas: 
+    "vision1 vision2"
+    "vision3 vision4";
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vision1{
+    grid-area: vision1;
+}
+.vision2{
+    grid-area:vision2
+}
+.vision3{
+    grid-area: vision3;
+}
+.vision4{
+    grid-area: vision4;
+}
+h3:hover{
+    color: #1b187f6e;
+    transition: 0.15s;
+}
+
+.exportacionFinanciada{
+    padding-top:40px ;
+    padding-bottom: 35px;
+}
+.iconoContacto{
+    width: 35px;
+    height: 35px;
+}
+.telefono, .mail, .ubicacion{
+    width: fit-content;
+    text-align: center;
+    padding: 55px;
+}
+.pContacto{
+    width: fit-content;
+    text-align: center;
+    padding: 15px;
+}
+.imgbck{
+    background-image: url(../img/carrusel1.jpg);
+    background-position: center;
+    height:150px;
+    background-color: #0001026c;
+    background-blend-mode:multiply ;
+    background-attachment: fixed;
+}
+.contenedorContacto{
+    display: flex;
+    justify-content: center !important;
+}
+span{
+    padding-top: 25px;
+    display: block;
+}
+footer{
+background-color: #4c4c4c23;
+;
+    height: 200px;
+}
+
+.footer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    display: grid;
+    grid-template-areas:
+    "iconoFooter textosFooter" ;
+}
+.iconoFooter{
+    grid-area: iconoFooter;
+    height:90px ;
+}
+.textosFooter{
+    grid-area: textosFooter;
+}
+.textosFooter p{
+    padding-top: 25px;
+}
+
+.developed{
+    height: 65px;
+    background-color:#4c4c4c34 ;
+    align-items: center;
+
+}
+.developed p{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}

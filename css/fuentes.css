@@ -1,0 +1,32 @@
+@font-face {
+    font-family: relaylight;
+    src: url(../fuentes/Relay-Light.ttf);
+}
+@font-face {
+    font-family: lightitalic;
+    src: url(../fuentes/Relay-LightItalic.ttf);
+}
+@font-face {
+    font-family: relaymedium;
+    src: url(../fuentes/Relay-Medium.ttf);
+}
+@font-face {
+    font-family: mediumitalic;
+    src: url(../fuentes/Relay-MediumItalic.ttf);
+}
+@font-face {
+    font-family: relaybold;
+    src: url(../fuentes/Relay-Bold.ttf);
+}
+@font-face {
+    font-family: bolditalic;
+    src: url(../fuentes/Relay-BoldItalic.ttf);
+}
+@font-face {
+    font-family: relayblack;
+    src: url(../fuentes/Relay-Black.ttf);
+}
+@font-face {
+    font-family: blackitalic;
+    src: url(../fuentes/Relay-BlackItalic.ttf);
+}
