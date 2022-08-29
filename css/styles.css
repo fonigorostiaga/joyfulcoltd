@@ -212,4 +212,7 @@ background-color: #4c4c4c23;
         "vision1 vision2"
         "vision3 vision4";
     }
+    .imgbck{
+        display: none;
+    }
 }
