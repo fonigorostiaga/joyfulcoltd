@@ -1,17 +1,19 @@
 header{
-    position: sticky;
+    position: sticky !important;
     top: 0;
-    height: 100px;
     z-index: 999;
 }
 .navegador{
     margin-inline-start: auto ;
     margin-inline-end:10% ;
+
+
 }
 .navegador>li{
     margin-left: 40px;
 }
 .icono{
+    margin-left: 45%;
     height: 65px;
 }
 .contenedorIcono{
@@ -73,8 +75,7 @@ h3{
 .containerVision{
     display: grid;
     grid-template-areas: 
-    "vision1 vision2"
-    "vision3 vision4";
+    "vision1 vision2 vision3 vision4";
     width: 65%;
     margin-left: auto;
     margin-right: auto;
@@ -115,12 +116,14 @@ h3:hover{
     padding: 15px;
 }
 .imgbck{
-    background-image: url(../img/carrusel1.jpg);
+    background-image: url(../img/carrusel2.jpg);
     background-position: center;
     height:150px;
     background-color: #0001026c;
     background-blend-mode:multiply ;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedorContacto{
     display: flex;
@@ -167,4 +170,46 @@ background-color: #4c4c4c23;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
+}
+.imagenNosotros{
+    width: 95% !important;
+}
+.contenedorContacto{
+    display: grid;
+    grid-template-areas: 
+    "telefono mail ubicacion";
+
+}
+.telefono{
+    grid-area: telefono;
+}
+.mail{
+    grid-area: mail;
+}
+.ubicacion{
+    grid-area: ubicacion;
+}
+@media screen and (max-width: 990px){
+    .imgSection{
+        width: 95% !important;
+    }
+    .contenedorContacto{
+        display: grid;
+        grid-template-areas: 
+        "telefono"
+        "mail" 
+        "ubicacion";
+    
+    }
+    .telefono, .mail, .ubicacion{
+        width: 95%;
+    }
+    .iconoFooter{
+        display: none;
+    }
+    .containerVision{
+        grid-template-areas: 
+        "vision1 vision2"
+        "vision3 vision4";
+    }
 }
