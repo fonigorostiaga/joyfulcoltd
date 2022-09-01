@@ -3,6 +3,18 @@ header{
     top: 0;
     z-index: 999;
 }
+h1{
+    font-family: relayblack ;
+}
+h2{
+    font-family: relaybold;
+}
+p{
+    font-family: relaylight;
+}
+h5{
+    font-family: relaymedium;
+}
 .navegador{
     margin-inline-start: auto ;
     margin-inline-end:10% ;
@@ -33,12 +45,30 @@ a:hover{
     transition: 0.3s  !important;
 }
 
+.sliderImagen{
+    z-index: 1;
+}
+.textoSlider{
+    position: absolute;
+    top:50%;
+    
+}
+.textoSlider h1{
+    font-size: 75px;
+    animation:slideInDown ;
+    animation-duration: 1.5s;
+}
+.textoSlider h2{
+    animation:slideInUp;
+    animation-duration: 1.5s;
+}
 .nosotros, .servicios, .exportacionPreFinanciada, .contacto{
     background-color: #e2e2da65;
     padding-top:40px ;
     padding-bottom: 35px;
 }
 .nosotros>h1{
+
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +101,7 @@ h3{
     margin-left: auto;
     margin-right:auto ;
     margin-bottom: 35px;
+    text-align: center;
 }
 .containerVision{
     display: grid;
@@ -95,6 +126,9 @@ h3{
 h3:hover{
     color: #1b187f6e;
     transition: 0.15s;
+}
+.divServicios, .divAsesoramiento, .divExportacionPreFinanciada{
+    align-items:center ;
 }
 
 .exportacionFinanciada{
