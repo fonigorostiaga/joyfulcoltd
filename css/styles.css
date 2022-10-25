@@ -245,6 +245,7 @@ background-color: #4c4c4c23;
         grid-template-areas: 
         "vision1 vision2"
         "vision3 vision4";
+        grid-column-gap:15px ;
     }
     .imgbck{
         display: none;
